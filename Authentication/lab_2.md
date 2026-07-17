@@ -5,6 +5,7 @@ then we can see somthing specific in the error massege. this is a full stop at t
 
 <img width="1696" height="758" alt="image" src="https://github.com/user-attachments/assets/3e37b6eb-7824-48a2-b787-bccbfc16c907" />
 
+'python ex.py'
 
 '''import requests
 from pathlib import Path
