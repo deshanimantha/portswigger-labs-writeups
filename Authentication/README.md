@@ -8,7 +8,8 @@ when we navigated to the /my-account directory,entered the usernane "hi" and the
 
 now we get back lab page we can see candidate usernames and passwords list. now we may save passwords and username in your machine and become txt file 
 
-<img width="811" height="588" alt="image" src="https://github.com/user-attachments/assets/988034d6-58cd-41d7-8b24-3c9af016d408" />
+<img width="1982" height="1244" alt="image" src="https://github.com/user-attachments/assets/900b47f9-1560-4e5f-9860-c1ef0c837063" />
+
 
 then create file and rename as you wish
 then inside that file, we open linux terminal and type nano username.txt then opend nano GNU and copy username list. likewise password list save password.txt
