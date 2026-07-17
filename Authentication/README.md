@@ -1,4 +1,5 @@
-Lab: Username enumeration via subtly different responses
+Lab - Username enumeration via different responses
+
 
 <img width="1688" height="826" alt="image" src="https://github.com/user-attachments/assets/dcdf4455-3d91-49fb-869f-e3a56e65fd47" />
 
