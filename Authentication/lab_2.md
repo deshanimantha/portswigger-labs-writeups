@@ -11,7 +11,8 @@ We captured the login request and sent it with dummy credentials in burpsuit
 
 we wrote python script to idintify valid username. python script to check different response like what are the not fullstop response
 
-```import requests
+```
+import requests
 from pathlib import Path
  
 TARGET_URL = "https://0ac800df0392f42b810de86700cb0074.web-security-academy.net/login"
@@ -45,7 +46,8 @@ then we open  linux terminal type nano burpsuit_attack.py and save the python sc
 
 We observed the missing dot in the response for the valid username:
 We then used the script below to brute-force that user’s password:
-```import requests
+```
+import requests
 from pathlib import Path
 
 TARGET_URL = "https://0a4b000a042fe0058286436b00c90051.web-security-academy.net/login"
